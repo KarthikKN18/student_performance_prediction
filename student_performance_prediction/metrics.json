@@ -1,0 +1,42 @@
+{
+    "selected_model": "Random Forest",
+    "features": [
+        "age",
+        "studytime",
+        "failures",
+        "absences",
+        "schoolsup",
+        "famsup",
+        "paid",
+        "activities"
+    ],
+    "numeric_features": [
+        "age",
+        "studytime",
+        "failures",
+        "absences"
+    ],
+    "categorical_features": [
+        "schoolsup",
+        "famsup",
+        "paid",
+        "activities"
+    ],
+    "validation_results": {
+        "Linear Regression": {
+            "validation_MAE": 3.5160866840390743,
+            "validation_RMSE": 4.636949675422345,
+            "validation_R2": 0.10271617138798894
+        },
+        "Random Forest": {
+            "validation_MAE": 3.403241148750994,
+            "validation_RMSE": 4.193098660250669,
+            "validation_R2": 0.26627175462190356
+        }
+    },
+    "test_metrics": {
+        "MAE": 3.1643361920597894,
+        "RMSE": 3.805355711090253,
+        "R2": 0.27700771778905586
+    }
+}
